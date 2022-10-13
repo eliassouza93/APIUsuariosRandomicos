@@ -141,9 +141,15 @@
     }
 
     .bloco {
-        width:95%;
+        width:96%;
         height: 100vh;
 
+    }
+    .email{
+        & p{
+            font-size: 15px;
+        } 
+       
     }
 
     .info {
@@ -152,11 +158,11 @@
 
         & div {
             margin-top: 5px;
-            font-size: 18px;
+            font-size: 15px;
             font-weight: bold;
             letter-spacing: 1px;
             & span{
-                font-size: 19px;
+                font-size: 15px;
                 font-weight: bold;
             }
         }

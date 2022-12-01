@@ -5,11 +5,6 @@
     height: 100vh;
  
 }
-h1{
-    color: white;
-    font-size: 73px;
-    text-align: center;
-}
 
 .random {
     font-family: 'Italiana', serif;
@@ -25,6 +20,7 @@ h1{
     display: flex;
     align-items: center;
     background-color: #333;
+ 
     justify-content: center;
     font-size: 2.5rem;
 }
@@ -36,7 +32,7 @@ h1{
     align-items: center;
     background-color: #333;
     justify-content: center;
-    font-size: 120px;
+    font-size: 100px;
     letter-spacing: 10px;
 
 }
@@ -44,8 +40,8 @@ h1{
 .bloco {
     background-color: #efefef;
     height: auto;
-    width: 50%;
-    max-width: 1200px;
+    width: 80%;
+    max-width: 1000px;
     margin-top: 270px;
     margin: auto;
     border-radius: 5px;
@@ -114,10 +110,12 @@ h1{
 }
 
 .info_pessoal {
-
+   
     & div {
         margin: 5px;
         font-size: 1.3rem;
+     
+        
 
         & span {
             font-size: 25px;

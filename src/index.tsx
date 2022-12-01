@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom/client';
 import Inicio from './Paginas/Inicial';
 
 
-
-
-
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
